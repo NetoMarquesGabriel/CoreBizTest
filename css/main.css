@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+.container{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+.topbar{
+  width: 100%;
+  padding: 7px 0;
+  display: table;
+  border-bottom: 1px solid #ddd;
+}
+.form-search{
+  border: 1px solid #ddd;
+  width: 220px;
+  height: 27px;
+  float: left;
+}
+.form-search input{
+  border: 0;
+  height: 25px;
+  font-size: 12px;
+  width: 186px;
+  padding-left: 10px;
+  float: left;
+}
+.form-search button{
+  background-color: transparent;
+  height: 25px;
+  width: 32px;
+}
+.form-search button i{
+  font-size: 12px;
+}
+.menu-topbar{
+  float: right;
+  margin: 4px 0;
+}
+.menu-topbar li{
+  display: inline-block;
+  margin-left: 15px;
+}
+.menu-topbar li i{
+  font-size: 13px;
+  margin-right: 7px;
+  vertical-align: bottom;
+}
+.menu-topbar li a{
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+.logotipo{
+  text-align: center;
+  padding: 21px 0 32px 0;
+}
+.menu-principal{
+  width: 100%;
+  height: 50px;
+  background-color: #7e7e7e;
+  border-bottom: 2px solid #000;
+}
+.menu-principal ul{
+  margin: auto;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  padding: 16px 0;
+}
+.menu-principal ul li{
+  display: inline-block;
+  padding: 0 20px;
+}
+.menu-principal ul li a{
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+.diferenciais{
+  padding: 25px 0;
+  width: 100%;
+  display: flex;
+}
+.inner-diferenciais{
+  width: 25%;
+  border-right: 1px solid #a1a1a1;
+  height: 48px;
+}
+.inner-diferenciais:last-of-type{
+  border: 0;
+}
+.inner-diferenciais img{
+  height: 48px;
+  float: left;
+  vertical-align: middle;
+}
+.inner-diferenciais p{
+  color: #5b5c60;
+}
+.inner-diferenciais p:first-of-type{
+  margin-top: 13px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.inner-diferenciais p:last-of-type{
+  font-size: 10px;
+  margin-top: 3px
+}
+.banners-secundarios{
+  width: 100%;
+  padding: 10px 0;
+}
+.banners-secundarios li{
+  display: inline-block;
+  margin-right: 7.9px;
+}
+.banners-secundarios li:last-of-type{
+  margin: 0;
+}
+.destaques{
+  width: 100%;
+  margin-top: 50px;
+  border-top: 1px solid #000;
+}
+.destaques h2{
+  width: 115px;
+  text-align: center;
+  background-color: #fff;
+  margin: 0 auto;
+  position: relative;
+  top: -9px;
+  font-weight: bold;
+}
+.box-produtos{
+  display: flex;
+  width: 100%;
+  padding: 50px 0;
+}
+.destaque-produto{
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+.destaque-produto a{
+  text-decoration: none;
+  color: #636363;
+}
+.destaque-produto h3{
+  font-weight: bold;
+}
+.preco{
+  color: #b53e39;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.preco .preco-desconto{
+  color: #ababab;
+  text-decoration: line-through;
+  font-weight: normal;
+  margin-right: 3px;
+}
+.box-indisponivel{
+  padding: 7px 12px;
+  background-color: #ec2828;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.box-form-contato{
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 40px 0;
+}
+.form-contato{
+  max-width: 635px;
+  margin: auto;
+  position: relative;
+}
+.form-contato label{
+  display: block;
+  font-size: 14px;
+  margin: 20px 0 6px 0;
+  color: #333;
+  width: 233px;
+}
+.form-contato input{
+  width: 233px;
+  height: 38px;
+  border: 1px solid #e9e9e9;
+  background-color: #fafafa;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.form-contato textarea{
+  width: 368px;
+  height: 116px;
+  border: 1px solid #e9e9e9;
+  background-color: #fafafa;
+  resize: none;
+  padding: 10px;
+  font-size: 14px;
+}
+.form-contato button{
+  border: 1px solid #e9e9e9;
+  background-color: #333;
+  width: 189px;
+  height: 38px;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.textarea-contato{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 369px;
+}
+.textarea-contato label, .form-contato label:first-of-type{
+  margin: 0 0 6px 0;
+}
+.box-menu-footer{
+  float: left;
+  margin: 25px 120px 25px 0;
+}
+.box-menu-footer h4{
+  letter-spacing: 4px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.box-menu-footer ul li{
+  margin-bottom: 5px;
+}
+.box-menu-footer ul li a{
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+.pagamento{
+  border-top: 1px dashed #aaa;
+  border-bottom: 1px dashed #aaa;
+  clear: both;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+.pagamento li{
+  display: inline-block;
+  margin-right: 5px;
+}
+.pagamento img{
+  height: 28px;
+}
+.copyright{
+  font-size: 14px;
+  text-align: center;
+  margin: 25px 0;
+}
+/*carrossel*/
+.banners .owl-dots {
+  display: none;
+}
+.banners .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  color: rgba(0, 0, 0, 0.68);
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.78);
+  width: 40px;
+  height: 40px;
+  padding: 0 14px;
+}
+.banners .owl-carousel .owl-nav .owl-next{
+  right: 0px;
+}
+.banners .owl-carousel .owl-nav .owl-prev{
+  left: 0px;
+}
